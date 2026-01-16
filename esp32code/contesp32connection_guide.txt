@@ -1,0 +1,17 @@
+(LED Strip)
+GPIO12-Resistor-DIn LED Strip
+
+(Amplifier + Speaker)
+GPIO25-DIn
+GPIO26-WS
+GPIO27-BCLK
+5V-V Amplifier
+
+(ESP32 comm)
+GPIO22-GPIO16(RX other esp)
+GPIO23-GPIO17(TX other esp)
+
+(ESP32 cam)
+GPIO32-GPIO1(TX cam)
+GPIO33-GPIO3(RX cam)
+GND-GND

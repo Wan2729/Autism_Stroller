@@ -1,0 +1,21 @@
+(DS Temp Sensor)
+GPIO13-Resistor(1/2)-DAT Temp Sensor
+VIN(5V)-Resistor(1/2)-Vcc Temp Sensor
+GND-GND Temp Sensor
+
+(ESP32 comm)
+GPIO16-GPIO22(other esp)
+GPIO17- GPIO23(other esp)
+
+(MCQ Gas Sensor)
+GPIO15-A0 Gas Sensor
+GND-GND Gas Sensor
+3.3V-Vcc Gas Sensor
+
+(MPU6050 Gyro)
+GPIO21-SDA Gyro
+GPIO22-SCL Gyro
+VIN(5V)-Vcc Gyro
+GND-GND Gyro
+
+(Neo GPS)

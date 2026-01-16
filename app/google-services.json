@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701021362752",
+    "project_id": "sensory-smart-stroller",
+    "storage_bucket": "sensory-smart-stroller.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701021362752:android:139ee1f686f42a2940dda5",
+        "android_client_info": {
+          "package_name": "com.example.autismstroller"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBisyw9GbTFkHNQIlhKJpy6Y7f2T_6jR5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

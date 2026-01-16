@@ -1,0 +1,1 @@
+ffmpeg -i input.mp4 -vf "scale=720:405,fps=12" -an -q:v QUALITY -f mjpeg output.mjpeg
