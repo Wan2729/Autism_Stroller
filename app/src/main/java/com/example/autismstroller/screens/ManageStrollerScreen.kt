@@ -106,6 +106,13 @@ fun ManageStrollerScreen(navController: NavHostController, bleHandler: BLEHandle
             serviceUUID = UUID.fromString(serviceUUID)
         )
     }
+    LaunchedEffect(Unit) {
+        // If not connected, try to connect immediately
+        if (!bleHandler.espConnected.value) {
+            // REPLACE "ESP32_Stroller" WITH YOUR EXACT DEVICE NAME
+            bleHandler.connectToDeviceName("Stroller_Control")
+        }
+    }
     LaunchedEffect(espConnected) {
         if (espConnected) {
             // Important: We must enable notifications once connected
