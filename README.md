@@ -52,7 +52,7 @@ The mobile application communicates with the ESP32 to send commands and receive 
 1. Open the project in **Android Studio**
 2. Enable **USB Debugging** on your Android device  
 3. Connect your phone using a data-capable USB cable  
-4. Run `MainActivity.kt` from Android Studio  
+4. Run `app/src/main/java/com/example/autismstroller/functional/MainActivity.kt` from Android Studio  
 5. Allow all requested permissions when prompted  
 6. Ensure internet connection is active for full functionality  
 
