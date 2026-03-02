@@ -69,7 +69,7 @@ The mobile application communicates with the ESP32 to send commands and receive 
 
 ---
 
-# 🔌 ESP32 Setup
+# 🔌 ESP32 Setup (Detail to be added)
 
 The ESP32 handles:
 
